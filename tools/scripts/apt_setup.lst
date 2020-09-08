@@ -1,0 +1,10 @@
+tree
+dos2unix
+libncurses5-dev
+libssl-dev
+build-essential
+openssl
+qemu
+gcc-arm-linux-gnueabi
+gcc-5-arm-linux-gnueabi
+git
