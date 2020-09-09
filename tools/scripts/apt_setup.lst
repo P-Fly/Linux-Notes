@@ -8,3 +8,5 @@ qemu
 gcc-arm-linux-gnueabi
 gcc-5-arm-linux-gnueabi
 git
+flex
+bison
