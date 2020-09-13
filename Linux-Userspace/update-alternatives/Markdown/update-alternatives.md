@@ -7,7 +7,7 @@
 ## 语法
 
 ```
-$ update-alternatives  --help
+$ update-alternatives --help
 Usage: update-alternatives [<option> ...] <command>
 
 Commands:
@@ -52,11 +52,11 @@ Options:
 ## 示例
 
 ```
-sudo update-alternatives --install /usr/bin/arm-linux-gnueabi-gcc arm-linux-gnueabi-gcc /usr/bin/arm-linux-gnueabi-gcc-7 7
-sudo update-alternatives --install /usr/bin/arm-linux-gnueabi-gcc arm-linux-gnueabi-gcc /usr/bin/arm-linux-gnueabi-gcc-5 5
-sudo update-alternatives --config arm-linux-gnueabi-gcc
+$ sudo update-alternatives --install /usr/bin/arm-linux-gnueabi-gcc arm-linux-gnueabi-gcc /usr/bin/arm-linux-gnueabi-gcc-7 7
+$ sudo update-alternatives --install /usr/bin/arm-linux-gnueabi-gcc arm-linux-gnueabi-gcc /usr/bin/arm-linux-gnueabi-gcc-5 5
+$ sudo update-alternatives --config arm-linux-gnueabi-gcc
 
-Choose the number 1 and set the default arm-linux-gnueabi-gcc-5 for the system.
+  Choose the number 1 and set the default arm-linux-gnueabi-gcc-5 for the system.
 ```
 
 安装命令的基本格式为 **update-alternatives --install \<link\> \<name\> \<path\> \<priority\>**
